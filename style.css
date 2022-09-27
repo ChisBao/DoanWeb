@@ -1,0 +1,19 @@
+
+p.left{
+    text-align: left;
+}
+p.right{
+    text-align: right;
+}
+p.center {
+    text-align: center;
+}
+h1{
+border: 1px solid#000000;
+}
+.hinhanh {
+    text-align: center;
+}
+.navbar {
+    background: #000000;
+}

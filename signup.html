@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Login </title>
+     <link rel="stylesheet" href="signup.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+              <h1>Đăng Ký</h1>
+              <p>Vui lòng điền vào biểu mẫu này để tạo tài khoản.</p>
+              <hr>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Password" name="psw" required>
+          
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+              </label>
+          
+              <p>Bằng cách tạo một tài khoản, bạn đồng ý với Điều khoản & quyền riêng tư của chúng tôi.<a href="#" style="color:dodgerblue">Điều khoản & quyền riêng tư của chúng tôi.</a>.</p>
+          
+              <div class="clearfix">
+                <button type="submit" class="signupbtn">Đăng Ký </button>
+                <button type="button" class="cancelbtn">Hủy</button>
+              </div>
+            </div>
+          </form>
+    </body>
+</html>
